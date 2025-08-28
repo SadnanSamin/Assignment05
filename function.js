@@ -27,10 +27,13 @@ for (const copyButton of copyButtons) {
     copyButton.addEventListener("click", function () {
         const par_element = copyButton.parentElement.parentElement
         const copyNumber = par_element.querySelector(".card-number").innerText;
+        const copyCount = parseInt(document.getElementById("copyCount").innerText);
 
         navigator.clipboard.writeText(copyNumber)
             .then(() => {
                 alert(`${copyNumber} is copied to the clipboard`);
+                const newCount = copyCount+1;
+                document.getElementById("copyCount").innerText=newCount;
             })
             .catch(err => {
                 console.error("Failed to copy: ", err);
