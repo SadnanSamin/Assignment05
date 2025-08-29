@@ -27,7 +27,7 @@
     <header class="hind-madurai-font">
         <!-- navbar -->
         <nav class="max-w-[1800px] mx-auto hind-madurai-font">
-            <div class="flex justify-between items-center m-[10px]">
+            <div class="flex flex-col justify-center md:flex-row md:justify-between items-center m-[10px]">
                 <!-- left side  -->
                 <div class="flex items-center gap-2.5">
                     <img class="h-[50px] w-[50px]" src="./assets/logo.png" alt="">
@@ -43,7 +43,7 @@
                         <h1 id="coinCount" class="font-bold">100</h1>
                         <img class="h-[24px] w-[24px]" src="./assets/coin.png" alt="">
                     </div>
-                    <div class="flex items-center gap-2.5 mr-5 bg-[#00A63E] px-8  py-3 rounded-[50px] text-white ">
+                    <div class="flex items-center gap-2.5  md:mr-5 bg-[#00A63E] px-8  py-3 rounded-[50px] text-white ">
                         <h1 id="copyCount">0</h1>
                         <p>Copy</p>
                     </div>
@@ -66,10 +66,10 @@
         <!-- CARD SECTION  -->
         <section>
 
-            <div class=" max-w-[1800px] py-20 mx-auto grid grid-cols-[70%_28%] w-full justify-between hind-madurai-font ">
+            <div class=" max-w-[1800px] px-4 py-20 mx-auto grid grid-cols-1 md:grid-cols-[70%_28%] w-full gap-8 justify-between hind-madurai-font ">
                 <!-- card div -->
-                <div class=" grid grid-cols-3 gap-6">
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                <div class=" grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/emergency.png" alt="">
@@ -83,7 +83,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">999</h1>
                         <h1 class=" bg-[#F2F2F2] w-16 rounded-[50px] px-3 py-1.5  text-center">All</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn  btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500 copy_button"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
@@ -92,7 +92,7 @@
                     </div>
 
 
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#DFEFFF] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/police.png" alt="">
@@ -106,7 +106,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">999</h1>
                         <h1 class=" bg-[#F2F2F2] w-16 rounded-[50px] px-3 py-1.5  text-center">Police</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn copy_button btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton  btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
@@ -115,7 +115,7 @@
                     </div>
 
 
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/fire-service.png" alt="">
@@ -129,7 +129,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">999</h1>
                         <h1 class=" bg-[#F2F2F2] w-16 rounded-[50px] px-3 py-1.5  text-center">Fire</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn copy_button btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
@@ -138,7 +138,7 @@
                     </div>
 
 
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/emergency.png" alt="">
@@ -152,7 +152,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">1994-999999</h1>
                         <h1 class=" bg-[#F2F2F2] w-20 rounded-[50px] px-3 py-1.5  text-center">Health</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn copy_button btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
@@ -160,7 +160,7 @@
                         </div>
                     </div>
 
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/emergency.png" alt="">
@@ -174,7 +174,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">109</h1>
                         <h1 class=" bg-[#F2F2F2] w-16 rounded-[50px] px-3 py-1.5  text-center">Help</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn copy_button btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
@@ -183,7 +183,7 @@
                     </div>
 
 
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/emergency.png" alt="">
@@ -197,7 +197,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">106</h1>
                         <h1 class=" bg-[#F2F2F2] w-16 rounded-[50px] px-3 py-1.5  text-center">Govt.</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn copy_button btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
@@ -206,7 +206,7 @@
                     </div>
 
 
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/emergency.png" alt="">
@@ -220,7 +220,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">16216</h1>
                         <h1 class=" bg-[#F2F2F2] w-24 rounded-[50px] px-3 py-1.5  text-center">Electricity</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn copy_button btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
@@ -229,7 +229,7 @@
                     </div>
 
 
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/brac.png" alt="">
@@ -243,7 +243,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">16445</h1>
                         <h1 class=" bg-[#F2F2F2] w-16 rounded-[50px] px-3 py-1.5  text-center">NGO</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn copy_button btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
@@ -252,7 +252,7 @@
                     </div>
 
 
-                    <div class=" card shadow-lg  max-w-[26.25rem] bg-white p-8 rounded-xl">
+                    <div class=" card shadow-lg  md:max-w-[26.25rem] bg-white p-8 rounded-xl">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-3.5 rounded-2xl">
                                 <img class="max-w-[32px]" src="./assets/Bangladesh-Railway.png" alt="">
@@ -266,7 +266,7 @@
                         <h1 class="card-number mt-6 font-bold text-[32px]">163</h1>
                         <h1 class=" bg-[#F2F2F2] w-16 rounded-[50px] px-3 py-1.5  text-center">Travel</h1>
 
-                        <div class="mt-7">
+                        <div class="mt-7 flex justify-between">
                             <button class="btn copy_button btn-outline border-gray-300 w-[48%] rounded-[8px] text-gray-500"><i
                                     class="fa-regular fa-copy"></i>Copy</button>
                             <button class="btn callButton btn-success bg-green-500 text-white w-[48%] rounded-[8px]"><i
