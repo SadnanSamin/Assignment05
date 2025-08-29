@@ -1,15 +1,16 @@
+Question :
 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
 --> getElementById :
 getElementById selects an element by its id and returns a single element
 
-    getElementsByClassName :
+getElementsByClassName :
             getElementsByClassName selects all the elements with their given class name and returns an array like collection
 
-    querySelector :
+querySelector :
             querySelector selects the first matching CSS selector that can be id , class , attributes etc.
 
-    querySelectorAll :
+querySelectorAll :
             querySelectorAll selects all the matching CSS selectors and returns an array like nodelist
 
 2. How do you create and insert a new element into the DOM?
@@ -29,3 +30,4 @@ getElementById selects an element by its id and returns a single element
 --> preventDefault() is used to stop the browser's default behavior like stopping it from reloading while submitting a form
 
 stopPropagation() stops the flow of an event that bubbles up to the parent element
+
